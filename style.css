@@ -73,3 +73,21 @@ h1 {
 #section-form fieldset input[type="submit"]:hover {
   background-color: rgba(46, 139, 86, 0.897);
 }
+
+/* SECTION-TABLE */
+#section-table {
+  margin-bottom: 1.5rem;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
