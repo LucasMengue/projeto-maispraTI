@@ -26,15 +26,15 @@
             </div>
             <div>
               <label for="tel">Telefone:*</label>
-              <input type="tel" name="tel" id="tel" required />
+              <input type="tel" name="tel" id="tel" placeholder="ex: (51) 9 9999-9999" required />
             </div>
             <div>
-              <label for="nasc">Data de nascimento:*</label>
-              <input type="text" name="nasc" id="nasc" required />
+              <label for="date">Data de nascimento:*</label>
+              <input type="date" name="date" id="date" required />
             </div>
             <div>
               <label for="grade">Nota final do aluno:*</label>
-              <input type="number" name="grade" id="grade" required />
+              <input type="number" name="grade" id="grade" step="0.01" min="0" max="10" required />
             </div>
             <button onclick="student.submit(this)">Enviar</button>
           </fieldset>
