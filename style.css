@@ -108,14 +108,20 @@ main {
   background-color: #ccc;
 }
 
-#section-form fieldset input[type="submit"] {
+#section-form fieldset button {
   width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
   background-color: var(--primary-color);
   color: #fff;
   cursor: pointer;
 }
 
-#section-form fieldset input[type="submit"]:hover {
+#section-form fieldset button:hover {
   background-color: rgba(46, 139, 86, 0.897);
 }
 
