@@ -31,8 +31,7 @@ footer {
   flex-shrink: 0;
 }
 
-h1,
-h2 {
+h1 {
   text-align: center;
   font-size: 1.5rem;
   padding: 1rem 0;
@@ -77,8 +76,10 @@ main {
 
 #section-form legend {
   margin-bottom: 0.2rem;
-  font-size: 1.3rem;
+  text-align: center;
+  font-size: 1.5rem;
   font-weight: bold;
+  text-transform: uppercase;
   color: var(--primary-color);
 }
 
